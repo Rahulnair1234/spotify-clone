@@ -41,14 +41,14 @@ const Header: React.FC<HeaderProps> = ({ children, className }) => {
 					<button className='rounded-full bg-black flex items-center justify-center hover:opacity-75 transition'>
 						<RxCaretLeft
 							onClick={() => router.back()}
-							classname='text-white'
+							className='text-white'
 							size={35}
 						/>
 					</button>
 					<button className='rounded-full bg-black flex items-center justify-center hover:opacity-75 transition'>
 						<RxCaretRight
 							onClick={() => router.forward()}
-							classname='text-white'
+							className='text-white'
 							size={35}
 						/>
 					</button>

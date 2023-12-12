@@ -3,6 +3,7 @@
 import { Song } from '@/types';
 import MediaItem from './MediaItem';
 import { data } from 'autoprefixer';
+import LikeButton from './LikeButton';
 
 interface SearchContentProps {
 	songs: Song[];
@@ -33,6 +34,7 @@ const SearchContent: React.FC<SearchContentProps> = ({ songs }) => {
 							data={song}
 						/>
 					</div>
+					<LikeButton songId={song.id} />
 				</div>
 			))}
 		</div>

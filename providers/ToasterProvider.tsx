@@ -3,9 +3,7 @@
 import React from 'react';
 import { Toaster } from 'react-hot-toast';
 
-// interface ToasterProviderProps {
-// 	children: React.ReactNode;
-// }
+
 const ToasterProvider = () => {
 	return (
 		<Toaster
